@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=PT+Serif&family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#container {
+    background-color: gray;
+    width: 100vwa;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Cinzel", serif;
+    font-size :1.8em; ;
+  }
+  #titleName {
+    background-color:rgb(129, 204, 204);
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+    margin-top: 3em;
+  }
+  #titleName h1{
+    color: black;
+    position: absolute;
+  }
+  #favFood1 {
+    background-color:turquoise;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+  }
+  #favFood2 {
+    background-color: rgb(250, 101, 151);
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+  }
+  #favFood3 {
+    background-color: blueviolet;
+    width: 80vw;
+    height: 60vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    text-align: center;
+  }
+  #titleImage {
+    height: 50vh;
+    width: 80vw;
+  }
+  #favFoodImage1, #favFoodImage2,#favFoodImage3 {
+    height: 30vh;
+    width: 40vw;
+    border: solid white;
+    padding: 2px;
+  }
+  #favFood1 h2, #favFood2 h3,#favFood3 h4 {
+    font-family: "Lobster Two", cursive;
+  }
